@@ -1,7 +1,7 @@
 # Dacon 2023 교원그룹 AI 챌린지 <예선> Private 9등
 ## 사용한 모델 
 ### Trocr-large-handwritten(https://arxiv.org/abs/2109.10282).
-
+(https://huggingface.co/microsoft/trocr-large-handwritten)
 ## 주요 설치 라이브러리
 ```
 pip install transformers
