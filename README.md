@@ -41,7 +41,7 @@ pip install imageio
 
 ## 가중치 파일로부터 추론
 ```
-
+(first zip폴더는 구글 드라이브를 통해 링크를 받으시면 됩니다.)
 first의 압축을 풀어 first,second,three,four 폴더를 다운받게 되면 아래 파일 구조에 맞게 다운받은 파일을 넣고
 학습용 train과 test를 아래 폴더 구조에 맞게 넣어줍니다.  
 infer1~4까지의 모든 파일을 실행 6개의 csv파일이 나오면 ESNB 파일을 실행하여 최종 submission_esnb_sota_FINAL.csv을 생성
