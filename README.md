@@ -6,6 +6,7 @@
 ## 사용한 모델 및 GPU
 ### Trocr-large-handwritten(https://arxiv.org/abs/2109.10282).
 (https://huggingface.co/microsoft/trocr-large-handwritten)
+
 RTX4090
 ## 주요 설치 라이브러리
 ```
