@@ -1,7 +1,7 @@
 # Dacon 2023 교원그룹 AI 챌린지 <예선> Private 9등
 
 ## 팀원
-### 한성대학교_김태민,LastStar,3o3
+### 한성대학교_김태민, LastStar, 3o3
 
 ## 사용한 모델 
 ### Trocr-large-handwritten(https://arxiv.org/abs/2109.10282).
