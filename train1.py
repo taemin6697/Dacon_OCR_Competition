@@ -107,13 +107,13 @@ class OCRDataset(Dataset):
                 su = random.randint(10, 20)
                 image = rotate(image=image, su=su)
 
-            if aug2>0.3:
+            if aug2>0.4:
                 su = random.uniform(0.0, 0.06)
                 noise_index = random.random()
                 if noise_index > 0.3:
                     su2 = 2
                 else:
-                    su2 = 3
+                    su2 = 2
                 image = my_GNnoise(image=image, su=su, su2=su2)
 
             image = Image.fromarray(image).convert("RGB")
@@ -287,7 +287,7 @@ if __name__ == '__main__':
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
         bf16=True,
-        output_dir="E:/second",
+        output_dir="./first",
         logging_steps=100,
         save_steps=17892,
         eval_steps=17892,
