@@ -1,2 +1,3 @@
-# Dacon_ocr_Competition
-## 김태민
+# Dacon 2323 교원그룹 AI 챌린지 <예선>
+## 사용한 모델 
+
