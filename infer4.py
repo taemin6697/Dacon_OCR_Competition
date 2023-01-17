@@ -12,9 +12,9 @@ if __name__ == '__main__':
     #tokenizer = AutoTokenizer.from_pretrained('C:/Users/tm011/Desktop/COMP/trocr_large_add_data_total_GNnoise/checkpoint-83676')
 
     model = VisionEncoderDecoderModel.from_pretrained(
-        'E:/use_cutout_salt_motion/checkpoint-447300')
+        './four/checkpoint-447300')
     tokenizer = AutoTokenizer.from_pretrained(
-        'E:/use_cutout_salt_motion/checkpoint-447300')
+        './four/checkpoint-447300')
     #processor = TrOCRProcessor.from_pretrained('C:/Users/tm011/Desktop/COMP/output_beit_ko/checkpoint-10')
     #feature_extractor = AutoFeatureExtractor.from_pretrained("microsoft/beit-base-patch16-224")
     processor = TrOCRProcessor.from_pretrained('microsoft/trocr-large-handwritten',size=384)
@@ -51,4 +51,4 @@ if __name__ == '__main__':
 
     submit = pd.read_csv('./sample_submission.csv')
     submit['label'] = pred
-    submit.to_csv('./use_cutout_salt_motion-447300_cutout.csv', index=False)
+    submit.to_csv('./four_check-point-447300.csv', index=False)
