@@ -3,6 +3,7 @@
 ### Trocr-large-handwritten(https://arxiv.org/abs/2109.10282).
 
 ## 주요 설치 라이브러리
+```
 #### !pip install transformers
 #### !pip install pandas
 #### !pip install Pillow
@@ -14,7 +15,7 @@
 #### !pip install imgaug
 #### !pip install matplotlib
 #### !pip install imageio
-
+``` 
 ## Dacon 2023 교원그룹 AI챌린지<예선> 코드 사용법
 ### -훈련 데이터 경로./train
 ### -테스트 데이터 경로./tesdt
