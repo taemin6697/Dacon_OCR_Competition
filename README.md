@@ -23,6 +23,7 @@ pip install tqdm
 pip install imgaug
 pip install matplotlib
 pip install imageio
+pip install jiwer
 ```
 ## Dacon 2023 교원그룹 AI챌린지<예선> 코드 사용법
 ```
