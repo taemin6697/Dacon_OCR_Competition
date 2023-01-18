@@ -10,6 +10,7 @@
 RTX4090
 ## 주요 설치 라이브러리
 ```
+
 pip install transformers
 pip install pandas
 pip install Pillow
