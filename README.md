@@ -9,7 +9,7 @@
 
 RTX4090
 
-### python=3.7 Windows
+### python=3.7 Windows anaconda
 ## 주요 설치 라이브러리
 ```
 pip install transformers
