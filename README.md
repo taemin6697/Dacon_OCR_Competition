@@ -8,9 +8,10 @@
 (https://huggingface.co/microsoft/trocr-large-handwritten)
 
 RTX4090
+
+### python=3.7
 ## 주요 설치 라이브러리
 ```
-
 pip install transformers
 pip install pandas
 pip install Pillow
