@@ -9,7 +9,7 @@
 
 RTX4090
 
-### python=3.7
+### python=3.7 Windows
 ## 주요 설치 라이브러리
 ```
 pip install transformers
